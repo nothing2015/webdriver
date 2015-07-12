@@ -15,8 +15,8 @@ public class Mybrowsers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		myFirefox();
-		mychrome();
-		myie();
+//		mychrome();
+//		myie();
 
 	}
 	//启动并加载firebug插件
@@ -31,6 +31,11 @@ public class Mybrowsers {
 		}
 		//设置firebug插件属性
 		firefoxprofile.setPreference("extension.firebug.currentVersion", "1.8.4");
+		//设置http代理方式默认是0直接连接，1是手工设置代理
+		firefoxprofile.setPreference("network.proxy.type", 1);
+		firefoxprofile.setPreference("network.proxy.http","192.168.1.22");
+		firefoxprofile.setPreference("network.proxy.http_port", 8080);
+		firefoxprofile.updateUserPrefs(file);
 		//启动firefox
 		WebDriver webdriver = new FirefoxDriver(firefoxprofile);
 		webdriver.get("http://www.baidu.com");

@@ -1,0 +1,18 @@
+[7164:6288:0712/161433:WARNING:data_reduction_proxy_config.cc(318)] SPDY proxy OFF at startup
+[7164:4148:0712/161433:ERROR:bluetooth_adapter_win.cc(102)] NOT IMPLEMENTED
+[7164:6288:0712/161434:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[7164:4148:0712/161436:INFO:CONSOLE(101)] "一张网页，要经历怎样的过程，才能抵达用户面前？
+一位新人，要经历怎样的成长，才能站在技术之巅？
+探寻这里的秘密；
+体验这里的挑战；
+成为这里的主人；
+加入百度，加入网页搜索，你，可以影响世界。
+", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_dda0382e.js (101)
+[7164:4148:0712/161436:INFO:CONSOLE(101)] "请将简历发送至 %c ps_recruiter@baidu.com（ 邮件标题请以“姓名-应聘XX职位-来自console”命名）", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_dda0382e.js (101)
+[7164:4148:0712/161436:INFO:CONSOLE(101)] "职位介绍：http://dwz.cn/hr2013", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_dda0382e.js (101)
+[7164:6288:0712/161437:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[7164:6288:0712/161437:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[7164:6288:0712/161437:WARNING:raw_channel.cc(210)] Shutting down RawChannel with write buffer nonempty
+[7164:4148:0712/161437:WARNING:pref_notifier_impl.cc(27)] pref observer found at shutdown printing.enabled
+[7164:4148:0712/161437:WARNING:pref_notifier_impl.cc(27)] pref observer found at shutdown plugins.allow_outdated
+[7164:4148:0712/161437:WARNING:pref_notifier_impl.cc(27)] pref observer found at shutdown plugins.always_authorize
