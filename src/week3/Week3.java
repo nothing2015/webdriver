@@ -79,7 +79,7 @@ public class Week3 {
 		list.add(false);
 		list.add(1);
 		Iterator it = list.iterator();
-		System.out.println("循环输出iterator:");
+		System.out.println("iterator循环输出:");
 		 while(it.hasNext()){
 			   System.out.print(it.next() + ",");
 			  }
