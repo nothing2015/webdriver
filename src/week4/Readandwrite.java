@@ -13,6 +13,7 @@ public class Readandwrite {
 	}
 	public static void readandwritefile(String filepath) throws IOException{
 		File file = new File(filepath);
+		
 		//如果是文件就写入其路径到文件
 		if(file.isFile()){
 			//true表示追加
@@ -21,12 +22,16 @@ public class Readandwrite {
 			fileWriter.close();
 		}
 		if(file.isDirectory()){
-			String[] filenames = file.toString().split("\\"); 
+			String[] filenames = file.getAbsolutePath().split("\\\\"); 
 			String filename = filenames[(filenames.length)-1]; 
-			System.out.println(filename);
-//			String newfilename = filepath+"\\"+filename;
-//			File newfile =new File(newfilename);
-//			newfile.createNewFile();
+//			System.out.println(filename);
+			String newfilename = filepath+"\\"+filename;
+			File newfile =new File(newfilename);
+			newfile.createNewFile();
+			FileWriter fileWriter=new FileWriter(newfilename, true);
+			fileWriter.write(newfilename);
+			fileWriter.close();
+			
 			
 		}
 	}

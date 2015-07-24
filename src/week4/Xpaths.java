@@ -53,8 +53,14 @@ public class Xpaths {
 		boolean selectdd = boxs.get(3).isSelected();
 		System.out.println(selectdd);
 		//button按钮的选择
+		WebElement webelement = driver.findElement(By.className("button"));
+		boolean button = webelement.isEnabled();
+		if (button){
+			element.click();
+		}else{
+			System.out.print("按钮不可点击");
+		}
 		driver.close();
-		//
 	}
 
 }
