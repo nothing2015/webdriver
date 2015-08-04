@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="去哪儿网测试" >
+  <!-- <listeners>
+   <listener class-name="com.holmos.webtest.testngextentions.RetryListener"></listener>
+   </listeners> -->
+   <test name="区间查询测试" >
+    <classes>
+     <class name="week6.Day52"> 
+     
+      <!-->>methods>
+      <include name="anylyresult" />  
+      <include name= "sendclick" />
+ 
+      
+      </methods>-->
+      </class> 
+     
+    </classes>
+  </test> 
+</suite> 
+ 
+ 
+ 
+ 

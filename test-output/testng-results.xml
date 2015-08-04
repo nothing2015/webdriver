@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="È¥ÄÄ¶ùÍø²âÊÔ" duration-ms="47640" started-at="2015-08-04T14:00:42Z" finished-at="2015-08-04T14:01:29Z">
+    <groups>
+    </groups>
+    <test name="Çø¼ä²éÑ¯²âÊÔ" duration-ms="47640" started-at="2015-08-04T14:00:42Z" finished-at="2015-08-04T14:01:29Z">
+      <class name="week6.Day52">
+        <test-method status="PASS" signature="startfirefox()[pri:0, instance:week6.Day52@5fba1c]" name="startfirefox" is-config="true" duration-ms="30265" started-at="2015-08-04T22:00:42Z" finished-at="2015-08-04T22:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startfirefox -->
+        <test-method status="PASS" signature="inputfromandto()[pri:0, instance:week6.Day52@5fba1c]" name="inputfromandto" duration-ms="17344" started-at="2015-08-04T22:01:12Z" finished-at="2015-08-04T22:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputfromandto -->
+        <test-method status="PASS" signature="endfirefox()[pri:0, instance:week6.Day52@5fba1c]" name="endfirefox" is-config="true" duration-ms="31" started-at="2015-08-04T22:01:29Z" finished-at="2015-08-04T22:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endfirefox -->
+      </class> <!-- week6.Day52 -->
+    </test> <!-- Çø¼ä²éÑ¯²âÊÔ -->
+  </suite> <!-- È¥ÄÄ¶ùÍø²âÊÔ -->
+</testng-results>
